@@ -1,7 +1,7 @@
 node {
 
 stage('SCM'){
- git 'https://github.com/leofou/gestionprojetagence.git'
+ git 'https://github.com/leofou/gestionprojetagence'
 }
 
 stage('Compile'){
